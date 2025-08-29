@@ -47,7 +47,7 @@ Pollution & Weather Tracker is an interactive web application that visualizes re
 
 1. **Clone the repository:**
    ```sh
-   git clone [https://github.com/kartiksaste123/Pollution-Tracker---Monitor-air-quality-and-get-environmental-solutions](https://github.com/kartiksaste123/Pollution-Tracker---Monitor-air-quality-and-get-environmental-solutions)
+   git clone https://github.com/kartiksaste123/Pollution-Tracker---Monitor-air-quality-and-get-environmental-solutions
    cd Pollution-Tracker---Monitor-air-quality-and-get-environmental-solutions
    ```
 
