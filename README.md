@@ -71,7 +71,7 @@ This project uses several APIs. The demo includes example keys in the code, but 
 - **Pexels**: [https://www.pexels.com/api/](https://www.pexels.com/api/)
 - **Google Gemini**: [https://ai.google.dev/](https://ai.google.dev/)
 
-Update the keys in [`src/utils/geminiAI.js`](src/utils/geminiAI.js) and [`src/utils/imageAPI.js`](src/utils/imageAPI.js) as needed.
+Update the keys in [`src/utils/geminiAI.js`](src/utils/geminiAI.js) and [`src/utils/imageAPI.js`](src/utils/imageAPI.js) and [`src/App.js`](src/App.js) as needed.
 
 ## Usage
 
