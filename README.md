@@ -1,12 +1,12 @@
-# India Pollution & Weather Tracker
+# Pollution & Weather Tracker
 
 ## Overview
 
-India Pollution & Weather Tracker is an interactive web application that visualizes real-time air quality and weather data for locations across India. Users can click anywhere on the map to view detailed environmental information, including AQI, weather conditions, pollutant details, and AI-powered recommendations for improving air quality.
+Pollution & Weather Tracker is an interactive web application that visualizes real-time air quality and weather data for locations across World. Users can click anywhere on the map to view detailed environmental information, including AQI, weather conditions, pollutant details, and AI-powered recommendations for improving air quality.
 
 ## Features
 
-- **Interactive Map**: Clickable map of India powered by Leaflet.js.
+- **Interactive Map**: Clickable map powered by Leaflet.js.
 - **Real-Time Data**: Fetches live AQI and weather data using public APIs.
 - **Environmental Solutions**: AI-generated, location-specific recommendations via Google Gemini API.
 - **Image Gallery**: Dynamic image carousel of location, weather, and air quality using Pexels API.
@@ -47,8 +47,8 @@ India Pollution & Weather Tracker is an interactive web application that visuali
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/india-pollution-tracker.git
-   cd india-pollution-tracker
+   git clone [https://github.com/kartiksaste123/Pollution-Tracker---Monitor-air-quality-and-get-environmental-solutions](https://github.com/kartiksaste123/Pollution-Tracker---Monitor-air-quality-and-get-environmental-solutions)
+   cd Pollution-Tracker---Monitor-air-quality-and-get-environmental-solutions
    ```
 
 2. **Install dependencies:**
@@ -75,7 +75,7 @@ Update the keys in [`src/utils/geminiAI.js`](src/utils/geminiAI.js) and [`src/ut
 
 ## Usage
 
-- Click anywhere on the map of India to select a location.
+- Click anywhere on the map to select a location.
 - View real-time AQI, weather, and pollutant details.
 - Browse location-specific images in the gallery.
 - Read AI-powered environmental solutions and recommendations.
