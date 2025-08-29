@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const PEXELS_API_KEY = 'M39VyOyM6MSDxy22oi1vhrW7qt7RevfmlBdC056HctfLnx97132V4fXv';
+const PEXELS_API_KEY = 'API_KEY_PEXELS';
 
 export const getCityImages = async (locationName, aqi) => {
     try {
