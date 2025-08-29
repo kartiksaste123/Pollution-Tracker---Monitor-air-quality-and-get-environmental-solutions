@@ -16,7 +16,7 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
 });
 
-const API_TOKEN = 'API_KEY_OPENWEATHERMAP';
+const API_TOKEN = 'API_KEY_api_waqi';
 
 // Map click handler component
 function MapClickHandler({ onLocationSelect }) {
@@ -99,7 +99,7 @@ function App() {
       // Try to fetch weather data if available
       try {
         const weatherResponse = await axios.get(
-          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=7fa076f39929bdd82720b9fd6a770262&units=metric`
+          https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=YOUR_API_KEY&units=metric
         );
         locationData.weather = weatherResponse.data;
       } catch (weatherError) {
