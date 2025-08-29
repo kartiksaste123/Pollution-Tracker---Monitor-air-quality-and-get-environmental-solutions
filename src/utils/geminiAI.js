@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const GEMINI_API_KEY = 'AIzaSyBTUY2DFNcNlzVm0apPstfK8PCA--K_HMw';
+const GEMINI_API_KEY = 'API_KEY_GEMINI';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
 
 export const getEnvironmentalSolutions = async (cityData) => {
