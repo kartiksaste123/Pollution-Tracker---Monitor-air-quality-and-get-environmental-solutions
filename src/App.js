@@ -16,7 +16,7 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
 });
 
-const API_TOKEN = '8d00d4b1272f3b1177d7f5dc2c1db3699cd55375';
+const API_TOKEN = 'API_KEY_OPENWEATHERMAP';
 
 // Map click handler component
 function MapClickHandler({ onLocationSelect }) {
